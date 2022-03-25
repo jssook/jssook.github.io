@@ -26,12 +26,17 @@
       }
     </script>
   </head>
+
   <body onload="colorSvgIcons()">
     <!-- header -->
     <header>
       <div class="header__logo center">
         <!-- 로고 이미지 -->
-        <img src="./statics/images/logo/logo1.png" />
+        <img src="./statics/images/logo/logo1.png" style="
+        object-fit: contain;
+        height: 48px;
+    "/>
+    
       </div>
       <nav class="center">
         <!-- header-button -->
@@ -59,7 +64,7 @@
             <!-- 띄어쓰기 포함 27자 -->
             성공하는 일잘러의 비밀공간
           </p>
-          <a href="https://projectlion.io/">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScMtUwyywSJlN-47C86N1fAluMeSkyqDlQ_Ht_ktXIiypPuZQ/viewform">
             <div class="top-banner__cta-button center bold">
               <!-- 띄어쓰기 포함 16자 -->
               지금 입장하기
@@ -79,9 +84,10 @@
       <!-- services -->
       <section id="service-section" class="container">
         <div class="section-title">
-          <h2 class="section-title__main center bold"></h2>
+          <h2 class="section-title__main center bold">이런 고민 해보신 적 있으신가요?
+          </h2>
           <h3 class="section-title__sub center bold"
-            >이런 고민 해보신 적 있으신가요?</h3
+            ></h3
           >
         </div>
         <div class="grid-3fr">
@@ -89,8 +95,10 @@
             <!-- 카드 첫번째이미지 -->
             <img
               class="card__image"
-              src="./statics/images/services/image_1st.png"
-            />
+              src="./statics/images/services/image_1st.png" style=
+              "object-fit: contain;
+              height: 200px;
+            "/>
             <p class="card__title center bold">
               <!-- 최대 길이 17자 -->
               </p
@@ -108,7 +116,9 @@
             <!-- 카드 두번째 이미지 -->
             <img
               class="card__image"
-              src="./statics/images/services/image_2nd.png"
+              src="./statics/images/services/image_2nd.png" style="
+              object-fit: contain;
+              height: 200px;"
             />
             <p class="card__title center bold"
               ><!-- 최대 길이 17자 -->
@@ -128,7 +138,9 @@
             <!-- 카드 세번째 이미지 -->
             <img
               class="card__image"
-              src="./statics/images/services/image_3rd.png"
+              src="./statics/images/services/image_3rd.png" style="
+              object-fit: contain;
+              height: 200px;"
             />
             <p class="card__title center bold center">
               <!-- 최대 길이 17자 -->
@@ -145,18 +157,18 @@
           </div>
         </div>
       </section>
-      <div class="container">
-        <img
-          class="promotion-banner-image"
-          src="./statics/images/promotion-banner/promotion-banner.png"
-        />
+      <!-- <div class="container"> -->
+        <!-- <img -->
+          <!-- class="promotion-banner-image" -->
+          <!-- src="./statics/images/promotion-banner/promotion-banner.png" -->
+        <!-- /> -->
       </div>
       <!-- productions -->
       <section id="product-section" class="container">
         <div class="section-title">
-          <h2 class="section-title__main center bold">오늘의 그릿 이용방법</h2>
+          <h2 class="section-title__main center bold">오늘의 그릿이 해결해드릴게요!</h2>
           <h3 class="section-title__sub center bold"
-            >스스로집중할 수 있어요!</h3
+            ></h3
           >
         </div>
         <div class="grid-3fr">
@@ -164,7 +176,9 @@
             <!-- 카드 첫번째 이미지 -->
             <img
               class="card__image"
-              src="./statics/images/product/img_1st.png"
+              src="./statics/images/product/img_1st.png" style="
+              object-fit: contain;
+              height: 200px;"
             />
             <p class="card__title bold">
               <!-- 최대 길이 17자 -->
@@ -178,13 +192,15 @@
               <!-- 최대 길이 22자 -->
               함께하니깐 딴짓을 덜 할 수 있습니다</p
             >
-            <div class="card__tag"> 자기주도학습 </div>
+            <div class="card__tag">  </div>
           </div>
           <div class="card__">
             <!-- 카드 두번째 이미지 -->
             <img
               class="card__image"
-              src="./statics/images/product/img_2nd.png"
+              src="./statics/images/product/img_2nd.png" style="
+              object-fit: contain;
+              height: 200px;"
             />
             <p class="card__title bold">
               <!-- 최대 길이 17자 -->
@@ -193,43 +209,51 @@
             </p>
             <p class="card__subtitle regular">
               <!-- 최대 길이 22자 -->
-              학습 매니저 주도 일정 아래 꾸준하게 학습하고
+              나와의 약속은 깨지기 쉽죠
               <br />
               <!-- 최대 길이 22자 -->
-              싶은 분들을 위한 코스입니다.
+              메이트와 함께 일정을 예약하면
+              <br/>
+              미루지 않고 바로 시작할 수 있어요
             </p>
             <div class="card__tag">
               <!-- 길이 자유 -->
-              일정을꼼꼼히
+              
             </div>
           </div>
           <div class="card__">
             <!-- 카드 세번째 이미지 -->
             <img
               class="card__image"
-              src="./statics/images/product/img_3rd.png"
+              src="./statics/images/product/img_3rd.png" style="
+               object-fit: contain;
+              height: 200px;"
             />
             <p class="card__title bold">
               <!-- 최대 길이 17자 -->
-              플러스 플랜</p
+              50분 집중 타이머
+              <br/>
+              기능제공</p
             >
             <p class="card__subtitle regular"
-              >무조건 완강을 위한 집중케어 코스입니다. 전담 매
+              >집중하는 시간은 길지 않아도 돼요
+              <br/>
+              다만 몰입할때 는 확실히해야겠죠
               <!-- 최대 길이 22자 -->
               <br />
               <!-- 최대 길이 22자 -->
-              니저 분이 꼼꼼하게 밀착케어해드립니다.
+              
             </p>
-            <div class="card__tag"> 밀착케어코스 </div>
+            <div class="card__tag">  </div>
           </div>
         </div>
       </section>
       <!-- teams -->
       <section id="team-section" class="container">
         <div class="section-title">
-          <h2 class="section-title__main center bold">Team</h2>
+          <h2 class="section-title__main center bold">오늘의 그릿 이용방법</h2>
           <h3 class="section-title__sub center bold"
-            >리액트 스쿨의 핵심 강사진</h3
+            ></h3
           >
         </div>
         <div class="grid-4fr">
@@ -238,22 +262,37 @@
             <img class="card__image" src="./statics/images/team/img_1st.png" />
             <p class="card__title center bold">
               <!-- 최대 13자 -->
-              강사명</p
+              내가 원하는 집중 시간에
+              <br/>
+              집중 세션 예약</p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 16자 -->
-              강사타이틀</p
+              원하는 시간을 선택하고
+              <br/>
+              시간을 계획적으로
+              <br/>
+              활용할 수 있어요
+              </p
             >
           </div>
           <div class="card__">
             <img class="card__image" src="./statics/images/team/img_2nd.png" />
             <p class="card__title center bold">
               <!-- 최대 13자 -->
-              강사명</p
+              같은 공간에서 
+              <br/>
+              각자 집중하기
+              <br/>
+              </p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 16자 -->
-              강사타이틀</p
+              세션을 함께 할 집중메이트와 
+              <br/>
+              시작 전 세션 목표를 공유하고
+              <br/>
+              같이 집중해요</p
             >
           </div>
           <div class="card__">
@@ -261,11 +300,18 @@
             <img class="card__image" src="./statics/images/team/img_3rd.png" />
             <p class="card__title center bold">
               <!-- 최대 13자 -->
-              강사명</p
+              할땐 하고 쉴땐 쉬고!
+              <br/>
+              효율적인 시간관리
+              <br/></p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 16자 -->
-              강사타이틀</p
+              집중 50분/휴식 10분 사이클로
+              <br/>
+              운영되는 섹션이에요.
+              <br/>
+              시간은 저희가 잴께요</p
             >
           </div>
           <div class="card__">
@@ -273,20 +319,38 @@
             <img class="card__image" src="./statics/images/team/img_4th.png" />
             <p class="card__title center bold">
               <!-- 최대 13자 -->
-              강사명</p
+              같은 목표를 가진
+              <br/>
+              사람들과 네트워킹
+              <br/>
+              </p
             >
             <p class="card__subtitle center regular">
               <!-- 최대 16자 -->
-              강사타이틀</p
+              세션 종료 후, 집중메이트와 함께
+              <br/>
+              세션동안 달성한 목표를 공유해요
+              <br/>
+              10분의 휴식시간 동안 네트워킹도
+              <br/>
+              할 수 있어요</p
             >
           </div>
         </div>
       </section>
+      <div class="section-title">
+        <h2 class="section-title__main center bold"></h2>
+        <h3 class="section-title__sub center bold"
+          >
+          <br/>
+          성장하는 일잘러의 비밀공간으로 초대합니다!</h3
+        >
+      </div>
       <div class="container">
-        <a class="cta-button__wrapper" href="https://projectlion.io/">
+        <a class="cta-button__wrapper" href="https://docs.google.com/forms/d/e/1FAIpQLScMtUwyywSJlN-47C86N1fAluMeSkyqDlQ_Ht_ktXIiypPuZQ/viewform">
           <div class="cta-button center bold">
             <!-- 띄어쓰기 포함 16자 -->
-            스킬 신청 상담받기
+            지금 예약하기
           </div>
         </a>
       </div>
@@ -296,7 +360,10 @@
         <div class="footer__top">
           <div class="footer__top__logo">
             <!-- 로고 이미지 -->
-            <img src="./statics/images/logo/logo.png" />
+            <img src="./statics/images/logo/logo1.png" style="
+            object-fit: contain;
+            height: 48px;
+        "/>
           </div>
           <div class="footer__top__info">
             <div class="footer__top__info__external-link">
