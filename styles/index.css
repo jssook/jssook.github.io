@@ -17,20 +17,20 @@
 
   /* 상단 바 */
   /* 상단 바 배경 색 */
-  --header-bg: var(--body-bg);
+  --header-bg: #ffffff;
   /* 상단 바 글자 색 */
   --header-font: #000000;
 
   /* 상단 배너 */
   /* 상단 배너 배경 색 */
   /* --top-banner-bg: var(--body-bg); */
-  --top-banner-bg: #000000;
+  --top-banner-bg: #2417ff;
   /* 상단 배너 글자 색 */
   --top-banner-font: #ffffff;
 
   /* 빅 버튼 */
   /* 빅 버튼 배경 색 */
-  --cta-button-bg: #01c0e2;
+  --cta-button-bg: #ffbc10;
   /* 빅 버튼 글자 색 */
   --cta-button-font: #ffffff;
 
@@ -126,7 +126,7 @@ main {
 
 header {
   /* width: 1024px; */
-  width: 100%;
+
   height: 64px;
   padding-left: 5%;
   padding-right: 5%;
@@ -164,6 +164,12 @@ a {
 /* 헤더 */
 .header__logo {
   margin-left: 24px;
+}
+
+header__logo .img{
+  height: 24px;
+  width: 70px;
+  object-fit: contain;
 }
 
 nav {
@@ -477,3 +483,4 @@ nav {
   height: 10px;
   margin: 2px 8px 0px;
 }
+
